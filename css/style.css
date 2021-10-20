@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif !important;
+}
+/* Header Section Start CSS */
+nav ul{
+    margin-left: auto;
+    margin-right: 36px;
+}
+.navbar-nav li{
+    margin-right: 21px;
+}
+.navbar-nav li a{
+    color: rgba(2,2,2);
+}
+li  a span{
+color: #4FC4CB;
+}
+.btn-contact{
+    margin-right: 89px;
+    border: none;
+    padding-left: 16px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    background-color: #AF71B0;
+    color: white;
+    border-radius: 3px;
+}
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-collapse{
+    font-size: 17px
+}
+/* Header Section End CSS */
+
+
+/* Hero Section Start CSS */
+.para-btn-contents{
+    border-left: 3px solid black;
+}
+.hero-btn1{
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid silver;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 21px;
+}
+.hero-contents{
+    margin-top: 7px;
+    margin-left: -23px;
+}
+.hero-contents h1{
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 35px;
+}
+.hero-contents p{
+    font-size: 14px;    
+    margin-left: 21px;
+
+}
+.hero-image img{
+    object-fit: cover;
+}
+
+.box-shadow-contents{
+    box-shadow: 2px 2px 2px 2px;
+}
+.wrap-nexts-step h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+.input-group{
+    padding-top: 30px;
+}
+.next-step-btn{
+    background-color: #AF71B0;
+    color: white;
+    padding-left: 21px;
+    padding-right: 17px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+/* Hero Section End CSS */
+
+
+/* React Develop Services Section Start CSS */
+
+.develop-service-para{
+    text-align: center;
+}
+.develop-service-para h2{
+font-weight: bold;
+font-size: 31px;
+}
+.technology-wrap{
+    text-align: right;
+    padding-right: 30px;
+}
+.technology-wrap h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+.technology-wrap a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(147, 147, 147, 1);
+}
+
+/* React Develop Services Section End CSS */
+
+/* Courses Contents Section Start CSS */
+.courses-contents{
+    text-align: center;
+    padding-top: 46px;
+    height: 305px;
+}
+.courses-contents h2{
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 17px;
+}
+.courses-contents p{
+font-size: 13px;
+}
+.courses-contents img{
+height: 40px;
+}
+.courses-contents:hover{
+    background-image: url('/images/Group\ 116@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 305px;
+}
+/* Courses Contents Section End CSS */
+
+
+/* Circular Contents Section Start CSS */
+.wrapper-circular-contents .container-fluid{
+    background-color: rgba(2,2,2);
+}
+.wrap-head-start h2{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 21px;
+    color: white;
+}
+.circular-contents{
+    text-align: center;
+}
+.circular-contents h3{
+    font-size: 11px;
+    font-weight: bold;
+}
+.wrapper-items{
+    position: relative;
+    padding-left: 19px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.lets-start-btn{
+    border: none;
+    padding: 10px;
+    background-color: #AF71B0;
+    color: white;
+    border-radius: 3px;  
+    margin-top: 120px;
+}
+.wrapper-items:hover{
+background-color: rgb(175, 113, 176);
+border-radius: 8px;
+}
+.wrapper-items img{
+    position: absolute;
+    top: 47%;
+    left: 53px;
+}
+.wrapper-items i{
+    font-size: 132px;
+    padding-top: 31px;
+}
+/* .wrapper-items:hover{
+    font-size: 132px;
+    background-color: rgb(175,113, 176, 100%);
+    border-radius: 1px 1px 30px 64px;
+} */
+.wrap-specify h2{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 65px;
+
+}
+.wrap-specify p{
+    color: white;
+}
+/* Circular Contents Section End CSS */
+
+
+
+/* Render Section Start CSS */
+
+
+.wrap-render-contents{
+    margin-top: 38px;
+}
+.wrap-render-contents h2{
+text-align: center;
+font-weight: bold;
+}
+
+/* Render Section Start CSS */
+
+.renders-para{
+    margin-top: 60px;
+    padding: 20px;
+    box-shadow:     0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+.renders-para h2{
+    font-size: 14px;
+    font-weight: bold;
+}
+.renders-para h3{
+    font-size: 13px;
+    font-weight: bold;
+}
+.renders-para p{
+    font-size: 13px;
+}
+.renders-para{
+    box-shadow: 5px solid black;
+}
+
+
+
+/* Key Benefits Section Start Css */
+
+.key-benefits-head{
+    text-align: center;
+    margin-top: 93px;
+}
+.key-benefits-head h2{
+    font-size: 31px;
+    font-weight: bold;
+}
+.key-benefits-para{
+    border: 0.5px solid lightgray;
+    padding: 14px;
+    text-align: left;
+    margin-top: 35px;
+}
+.key-benefits-para h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.key-benefits-para p{
+    font-size: 11px;
+}
+.key-benefits-para:hover{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(246, 246, 246, 1);
+    box-shadow:     0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+.get-free-quote{
+    text-align: center;
+    margin-top: 70px;
+}
+.get-free-quote .free-quote-btn{
+    border: none;
+    padding: 10px;
+    background-color: #AF71B0;
+    color: white;
+    border-radius: 3px;  
+    margin-bottom: 51px;
+}
+
+
+/* Hire Developers Section Start CSS */
+.hire-developer-section .container-fluid{
+    background-image: url('/images/orange.png');
+    background-repeat: no-repeat;
+}
+.hire-contents{
+    margin-bottom: 48px;
+}
+.hire-contents h2{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-top: 9%;
+    margin-left: 28%;
+}
+.hire-contents p{
+    font-size: 11px;
+    color: white;
+    margin-left: 28%;
+}
+.hire-us-now .hire-us-btn{
+    border: none;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 3px; 
+    margin-top: 19%;
+}
+/* Hire Developers Section End CSS */
+
+/* Why Choose Us Section Start CSS */
+
+.why-choose-head{
+    text-align: center;
+    margin-top: 43px;
+}
+.why-choose-head h2{
+    font-weight: bold;
+}
+.why-choose-head p{
+    font-size: 11px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #B8B8B8;
+    font-size: 13px;
+}
+.nav-list a:hover{
+    color: #4FC4CB;
+}
+.nav-list hr{
+    margin-top: 2px;
+}
+.why-choose-para h2{
+    font-size: 15px;
+    font-weight: bold;
+}
+.why-choose-para{
+    margin-top: 45px;
+    border-left: 3px solid black;
+    padding-left: 15px;
+}
+.why-choose-para p{
+    font-size: 11px;
+}
+.why-choose-image{
+    margin-top: 28px;
+}
+.why-choose-image img{
+    height: 158px;
+}
+/* Why Choose Us Section End CSS */
+
+/* Other Services Section Start CSS */
+
+.other-service-image{
+    background-image: url('/images/Rectangle.png');
+    background-repeat: no-repeat;
+    height: 373px;
+    background-size: cover;
+    text-align: center;
+}
+.other-service-image h2{
+    padding-top: 91px;
+    font-weight: bold;
+    color: white;
+}
+.other-service-image p{
+    font-size: 13px;
+    color: white;
+}
+.view-all-services .view-all-btn{
+    border: none;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 3px; 
+    margin-top: 10px;
+}
+/* Other Services Section End CSS */
+
+/* what we help section Start CSS */
+
+.map-image{
+    background-image: url('/images/GroupMap.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 50px;
+}
+.image-contents{
+    color: white;
+    padding-left: 20%;
+    padding-top: 6%;
+}
+.image-contents h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.image-contents p{
+    font-size: 9px;
+}
+
+.copy_right{
+    
+    text-align: center;
+    background-color: #AF71B0;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 16px;
+
+}
